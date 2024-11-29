@@ -25,10 +25,12 @@ ________________________________________________________________________________
 Para instalar e configurar o wger automaticamente, execute o comando abaixo no terminal:
 
 Usando wget:
-bash -c "$(wget -qLO - https://raw.githubusercontent.com/<seu-usuario>/wger-installer/main/install_wger.sh)"
+bash -c "$(wget -qLO - https://raw.githubusercontent.com/WesleiAnderson
+/wger-installer/main/install_wger.sh)"
 
 Usando curl:
-bash -c "$(curl -fsSL https://raw.githubusercontent.com/<seu-usuario>/wger-installer/main/install_wger.sh)"
+bash -c "$(curl -fsSL https://raw.githubusercontent.com/WesleiAnderson
+/wger-installer/main/install_wger.sh)"
 
 Nota: Substitua <seu-usuario> pelo nome de usuário do seu GitHub.
 
