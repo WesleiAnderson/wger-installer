@@ -4,7 +4,7 @@ Script de instalação automatizada para o wger em sistemas Ubuntu
 # Wger Installer
 Este repositório contém um script automatizado para instalar e configurar o wger, um sistema de gerenciamento de exercícios, em servidores Ubuntu.
 
-Descrição
+# Descrição
 O script realiza as seguintes tarefas:
 
 Instala dependências necessárias.
@@ -12,19 +12,24 @@ Configura o banco de dados PostgreSQL.
 Cria um ambiente virtual Python para isolamento.
 Instala o wger e aplica as migrações do banco de dados.
 Configura um superusuário para o sistema.
-Requisitos
+___________________________________________________________________________________________________________________________________________________________________________________________
+# Requisitos
 Antes de começar, certifique-se de que:
 
 Você está utilizando uma versão do Ubuntu compatível (20.04 ou superior é recomendada).
 Tem privilégios de root ou acesso sudo ao sistema.
-Instalação
+___________________________________________________________________________________________________________________________________________________________________________________________
+
+# Instalação
 1. Baixe e execute o instalador
 Para instalar e configurar o wger automaticamente, execute o comando abaixo no terminal:
 
 Usando wget:
 bash -c "$(wget -qLO - https://raw.githubusercontent.com/<seu-usuario>/wger-installer/main/install_wger.sh)"
+
 Usando curl:
 bash -c "$(curl -fsSL https://raw.githubusercontent.com/<seu-usuario>/wger-installer/main/install_wger.sh)"
+
 Nota: Substitua <seu-usuario> pelo nome de usuário do seu GitHub.
 
 O que será instalado
