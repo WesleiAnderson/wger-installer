@@ -1,7 +1,7 @@
 # wger-installer
 Script de instalação automatizada para o wger em sistemas Ubuntu
 
-Wger Installer
+# Wger Installer
 Este repositório contém um script automatizado para instalar e configurar o wger, um sistema de gerenciamento de exercícios, em servidores Ubuntu.
 
 Descrição
